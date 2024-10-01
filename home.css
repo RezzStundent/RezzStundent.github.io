@@ -1,0 +1,79 @@
+.container {
+   background-color: blueviolet;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 40px;
+   
+ }
+ .container h1{
+   text-align: center;
+   padding-bottom: 10px;
+   color: violet;
+ }
+ .container h1 span{
+   color: yellow;
+ }
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ body{
+   background-image: url("b.jpg");
+   background-size: cover;
+   margin: 0px;
+ }
+  .one {
+    border: 3px solid blueviolet;
+    background-color: violet;
+  }
+  .one h1 {
+    text-align: center;
+    color: darkviolet;
+    padding: 10px;
+  }
+  .two img {
+    margin: auto;
+    width: 100%;
+  }
+  .two h2{
+    text-align: center;
+    color: darkviolet;
+  }
+  .i{
+    background-color: black;
+  }
+  .i h3{
+   text-align: left;
+   color: deeppink;
+   font-size: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .i h3 span{
+    color: yellow;
+  }
+  .i p{
+    text-align: left;
+    font-size: 10px;
+    color: deeppink;
+  }
+  .i p span{
+    color: yellow;
+  }
+.foto{
+    background-color: yellow;
+    border: 3px solid violet;
+  }
+.foto img{
+  width: 100px;
+  margin: 10px auto;}
+@media screen and (max-width:805px) {
+  .two img{
+    margin: auto;
+    width: 100%;
+  }
+  .foto img{
+    width: 100px;
+  margin: 10px auto;}
+}

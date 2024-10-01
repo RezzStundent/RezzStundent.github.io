@@ -1,0 +1,71 @@
+.one{
+  background-color: yellow;
+  border: 4px solid greenyellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+}
+body{
+  background-image: url(teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+}
+.one h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ .two{
+   background-color: yellowgreen;
+   border: 5px solid orange;
+   width: 100%;
+   height: 350px;
+ }
+ .Two p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+ }
+ .two p span{
+   color: yellow;
+ }
+ .two img{
+   width: 100px;
+   float: right;
+   padding: 0;
+   padding-bottom: 0;
+   padding-top: 0;
+   width: 200px;
+   height: 250px;
+ }
+ .two h3{
+   text-align: center;
+ }
+ /*back*/
+ .ez{
+   border: 10px solid green;
+   background-color: lawngreen;
+   margin: auto;
+ }
+ .ez h3{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .ez:hover{
+   background-color: yellow;
+ }
+ @media only screen and (max-width: 768px){
+    .two{
+   background-color: yellowgreen;
+   border: 5px solid orange;
+   width: 100%;
+   height: 700px;
+ }
+ }

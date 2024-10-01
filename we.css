@@ -1,0 +1,39 @@
+body {
+  font: 16px/20px arial,sans-serif;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: lightcyan;
+}
+
+.header {
+  padding: 80px;
+}
+
+.header .judul{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a{
+  text-decoration: none;
+  color: skyblue;
+  padding: 3px;
+}
+
+.header a:hover{
+background-color: lightblue;
+color: whitesmoke;
+}
+.hero{
+  height: 250px;
+  background-image: url("l.jpg");
+  background-size: cover;
+}
